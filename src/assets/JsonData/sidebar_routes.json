@@ -1,0 +1,72 @@
+[
+  {
+    "display_name": "Dashboard",
+    "route": "/admin/dashboard",
+    "icon": "bx bx-home"
+  },
+  {
+    "display_name": "Users",
+    "route": "/admin/users",
+    "icon": "bx bx-user-pin"
+  },
+  {
+    "display_name": "Verified Vendors",
+    "route": "/admin/verifiedVendors",
+    "icon": "bx bx-id-card"
+  },
+  {
+    "display_name": "Vendors Request",
+    "route": "/admin/vendorsRequest",
+    "icon": "bx bx-id-card"
+  },
+  {
+    "display_name": "Pickup Request",
+    "route": "/admin/pickup-requests",
+    "icon": "bx bx-package"
+  },
+  {
+    "display_name": "Manage Categories",
+    "route": "/admin/manage-service",
+    "icon": "bx bx-customize"
+  },
+  {
+    "display_name": "Manage Prices",
+    "route": "/admin/manage-prices",
+    "icon": "bx bx-extension"
+  },
+  {
+    "display_name": "Manage Ads",
+    "route": "/admin/manage-ads",
+    "icon": "bx bx-box"
+  },
+  {
+    "display_name": "Topup Request",
+    "route": "/admin/TopupRequests",
+    "icon": "bx bx-wallet"
+  },
+  {
+    "display_name": "Withdrawal Request",
+    "route": "/admin/WithdrawalRequest",
+    "icon": "bx bx-credit-card"
+  },
+  {
+    "display_name": "Create Vendors",
+    "route": "/admin/vendorsAccount",
+    "icon": "bx bx-user-plus"
+  },
+  {
+    "display_name": "Notifications",
+    "route": "/admin/notifications",
+    "icon": "bx bx-bell"
+  },
+  {
+    "display_name": "Customer Support",
+    "route": "/admin/chat",
+    "icon": "bx bx-chat"
+  },
+  {
+    "display_name": "Invite Users",
+    "route": "/admin/invite-users",
+    "icon": "bx bx-share"
+  }
+]

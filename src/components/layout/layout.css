@@ -1,0 +1,20 @@
+.layout__content {
+  padding-left: var(--sidebar-width);
+  background-color: var(--second-bg);
+  min-height: 100vh;
+}
+
+.layout__content-main {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .layout__content {
+    width: 100%;
+    padding-left: 0;
+  }
+  .layout__content-main {
+    padding: 15px;
+  }
+}
