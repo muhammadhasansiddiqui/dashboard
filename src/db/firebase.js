@@ -34,12 +34,13 @@ import {
   import { initializeApp } from "firebase/app";
   
   const firebaseConfig = {
-    apiKey: "AIzaSyBfG89mVj7MMYcbbxFCegr1_pP1_5reohg",
-    authDomain: "scrapp-ee304.firebaseapp.com",
-    projectId: "scrapp-ee304",
-    storageBucket: "scrapp-ee304.appspot.com",
-    messagingSenderId: "549058211742",
-    appId: "1:549058211742:web:e0758007110b9fac90308f"
+    apiKey: "AIzaSyAjmu6Hcgf1tGuNCB1-MzCPor6hBAegJDY",
+  authDomain: "smoto-774ff.firebaseapp.com",
+  projectId: "smoto-774ff",
+  storageBucket: "smoto-774ff.appspot.com",
+  messagingSenderId: "745583564937",
+  appId: "1:745583564937:web:d94b48c6f48c1ad1340e58",
+  measurementId: "G-8BW5KXZVV9"
   };
   
   const app = initializeApp(firebaseConfig);

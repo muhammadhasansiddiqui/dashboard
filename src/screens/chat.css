@@ -1,0 +1,157 @@
+.card-user {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 5px 30px;
+  font-family: Arial, sans-serif;
+}
+.userBox {
+  display: flex;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+}
+.userImg {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 1px solid #455560;
+}
+.unreadImg {
+  border: 2px solid #50acff !important;
+}
+.userImgBox {
+  width: 55px;
+  height: 45px;
+  margin-right: 5px;
+  position: relative;
+}
+.userName {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.userEmail {
+  color: gray;
+  font-size: 14px;
+}
+.chatRow {
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 150px);
+}
+.usersDiv {
+  width: 30vw;
+  height: 100%;
+  overflow: auto;
+}
+.chatDiv {
+  width: 100%;
+  height: calc(100vh - 160px);
+  margin-left: 15px;
+  padding-left: 15px;
+  justify-content: space-between;
+  border-left: 1px solid gainsboro;
+}
+.emptyChatDiv {
+  height: 100%;
+  display: flex;
+  margin-left: 15px;
+  padding-left: 15px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.3);
+  width: -webkit-fill-available;
+  border-left: 1px solid gainsboro;
+}
+.messages {
+  width: 100%;
+  overflow: auto;
+  height: calc(100% - 145px);
+}
+.messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+.msgBox {
+  width: fit-content;
+  padding: 10px 20px;
+  position: relative;
+  padding-right: 50px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding-bottom: 24px;
+}
+.adminTimestamp {
+  z-index: 8;
+  bottom: 5px;
+  right: 12px;
+  color: white;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+}
+.userTimestamp {
+  z-index: 8;
+  bottom: 5px;
+  right: 12px;
+  font-size: 12px;
+  color: #455560;
+  text-align: right;
+  position: absolute;
+}
+.align-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.align-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lstMsgTime {
+  top: 8px;
+  right: 0;
+  z-index: 8;
+  font-size: 12px;
+  font-weight: 500;
+  color: #455560;
+  text-align: right;
+  position: absolute;
+}
+.unread {
+  color: rgb(80, 172, 255) !important;
+}
+.msgIcon {
+  right: 0;
+  z-index: 8;
+  font-size: 20px;
+  text-align: right;
+  position: absolute;
+  margin-bottom: 10px;
+  color: rgb(187, 186, 186);
+}
+.newMsgDot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: rgb(80, 172, 255);
+}
