@@ -1,23 +1,23 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { Navigate } from "react-router-dom";
-import React from "react";
-import Users from "./screens/Users";
-import Invite from "./screens/Invite";
-import Dashboard from "./screens/Dashboard";
-import ErrorScreen from "./screens/ErrorScreen";
-import ManagePrices from "./screens/ManagePrices";
-import ManageService from "./screens/ManageService";
-import ManageAds from "./screens/ManageAds";
-import Notifications from "./screens/Notifications";
-import VendorsAccount from "./screens/VendorsAccount";
-import VendorsRequest from "./screens/VendorsRequest";
-import VerifiedVendors from "./screens/VerifiedVendors";
-import PickupRequests from "./screens/PickupRequests";
-import TopupRequests from "./screens/TopupRequests";
-import Layout from "./components/layout/Layout.jsx";
-import AuthLayout from "./components/layout/Auth.jsx";
 import CustomerSupport from "./screens/CustomerSupport.jsx";
 import WithdrawalRequest from "./screens/WithdrawalRequest";
+import VerifiedVendors from "./screens/VerifiedVendors";
+import VendorsAccount from "./screens/VendorsAccount";
+import VendorsRequest from "./screens/VendorsRequest";
+import PickupRequests from "./screens/PickupRequests";
+import AuthLayout from "./components/layout/Auth.jsx";
+import ManageService from "./screens/ManageService";
+import Notifications from "./screens/Notifications";
+import TopupRequests from "./screens/TopupRequests";
+import Layout from "./components/layout/Layout.jsx";
+import ManagePrices from "./screens/ManagePrices";
+import ErrorScreen from "./screens/ErrorScreen";
+import { Navigate } from "react-router-dom";
+import Dashboard from "./screens/Dashboard";
+import ManageAds from "./screens/ManageAds";
+import Invite from "./screens/Invite";
+import Users from "./screens/Users";
+import React from "react";
 
 export default function App() {
   return (
